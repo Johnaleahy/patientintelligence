@@ -1,0 +1,606 @@
+{
+  "businesses": [
+    { "id": "b01", "name": "Harbor & Co. Coffee Roasters", "category": "Cafe" },
+    { "id": "b02", "name": "Clearview Optics", "category": "Optometry" },
+    { "id": "b03", "name": "Pine Hollow Hardware", "category": "Hardware" },
+    { "id": "b04", "name": "Bluebird Booksellers", "category": "Bookstore" },
+    { "id": "b05", "name": "Sunridge Landscaping", "category": "Landscaping" },
+    { "id": "b06", "name": "Crescent Dental Clinic", "category": "Dental" },
+    { "id": "b07", "name": "Meadowlane Florist", "category": "Florist" },
+    { "id": "b08", "name": "Riverside Diner", "category": "Restaurant" },
+    { "id": "b09", "name": "Silverline Auto Repair", "category": "Auto" },
+    { "id": "b10", "name": "Oak & Stone Carpentry", "category": "Carpentry" },
+    { "id": "b11", "name": "Starlight Theater", "category": "Arts" },
+    { "id": "b12", "name": "Golden Seed Grocers", "category": "Grocery" },
+    { "id": "b13", "name": "Aurora Yoga Studio", "category": "Fitness" },
+    { "id": "b14", "name": "Evergreen Insurance", "category": "Insurance" },
+    { "id": "b15", "name": "Summit Outdoor Gear", "category": "Retail" },
+    { "id": "b16", "name": "Velvet Spoon Bakery", "category": "Bakery" },
+    { "id": "b17", "name": "Copper Trail Brewery", "category": "Brewery" },
+    { "id": "b18", "name": "Beacon Consulting Group", "category": "Consulting" },
+    { "id": "b19", "name": "Seaside Art Supply", "category": "Art Supply" },
+    { "id": "b20", "name": "Highland Pharmacy", "category": "Pharmacy" },
+    { "id": "b21", "name": "CityCycle Bike Shop", "category": "Bicycles" },
+    { "id": "b22", "name": "Morning Tide Real Estate", "category": "Real Estate" },
+    { "id": "b23", "name": "Northwind HVAC", "category": "HVAC" },
+    { "id": "b24", "name": "BrightPath Tutoring", "category": "Education" },
+    { "id": "b25", "name": "Lakeside Marina", "category": "Marine" },
+    { "id": "b26", "name": "Petal & Stem Nursery", "category": "Garden" },
+    { "id": "b27", "name": "Urban Kicks Shoes", "category": "Footwear" },
+    { "id": "b28", "name": "Kindred Care Home Health", "category": "Healthcare" },
+    { "id": "b29", "name": "Atlas Printworks", "category": "Printing" },
+    { "id": "b30", "name": "Red Barn Farm Market", "category": "Farm Market" },
+    { "id": "b31", "name": "Luna Spa & Wellness", "category": "Wellness" },
+    { "id": "b32", "name": "MetroTech IT Services", "category": "IT" },
+    { "id": "b33", "name": "Westfield Storage", "category": "Storage" },
+    { "id": "b34", "name": "Firefly Childcare", "category": "Childcare" },
+    { "id": "b35", "name": "Gemstone Jewelers", "category": "Jewelry" },
+    { "id": "b36", "name": "Hometown Courier", "category": "Logistics" },
+    { "id": "b37", "name": "Cobalt Fitness", "category": "Fitness" },
+    { "id": "b38", "name": "Mill & Loom Textiles", "category": "Manufacturing" },
+    { "id": "b39", "name": "Greenfield Winery", "category": "Winery" },
+    { "id": "b40", "name": "Blue Skies Travel", "category": "Travel" }
+  ],
+  "obituaries": [
+    {
+      "id": "o001",
+      "full_name": "Eleanor Mae Whitaker",
+      "aliases": ["Eleanor M. Whitaker", "Ellie Whitaker"],
+      "birth_year": 1941,
+      "death_year": 2021,
+      "hometown": "Toledo, OH",
+      "last_residence": "Ann Arbor, MI",
+      "occupation": "school counselor",
+      "business_affiliations": [
+        { "name": "Bluebird Booksellers", "role": "community volunteer" },
+        { "name": "BrightPath Tutoring", "role": "advisor" }
+      ]
+    },
+    {
+      "id": "o002",
+      "full_name": "Robert Lee Dunham",
+      "aliases": ["Bob Dunham", "R. L. Dunham"],
+      "birth_year": 1938,
+      "death_year": 2019,
+      "hometown": "Boise, ID",
+      "last_residence": "Spokane, WA",
+      "occupation": "hardware merchant",
+      "business_affiliations": [
+        { "name": "Pine Hollow Hardware", "role": "owner" },
+        { "name": "Westfield Storage", "role": "investor" }
+      ]
+    },
+    {
+      "id": "o003",
+      "full_name": "Priya Ramanathan",
+      "aliases": ["P. Ramanathan"],
+      "birth_year": 1975,
+      "death_year": 2023,
+      "hometown": "Edison, NJ",
+      "last_residence": "Seattle, WA",
+      "occupation": "technology strategist",
+      "business_affiliations": [
+        { "name": "MetroTech IT Services", "role": "co-founder" },
+        { "name": "Beacon Consulting Group", "role": "partner" }
+      ]
+    },
+    {
+      "id": "o004",
+      "full_name": "Miguel A. Castillo",
+      "aliases": ["Miguel Castillo"],
+      "birth_year": 1950,
+      "death_year": 2018,
+      "hometown": "El Paso, TX",
+      "last_residence": "Albuquerque, NM",
+      "occupation": "chef",
+      "business_affiliations": [
+        { "name": "Riverside Diner", "role": "owner" },
+        { "name": "Copper Trail Brewery", "role": "collaborator" }
+      ]
+    },
+    {
+      "id": "o005",
+      "full_name": "Helen J. Park",
+      "aliases": ["Helen Park"],
+      "birth_year": 1947,
+      "death_year": 2015,
+      "hometown": "Oakland, CA",
+      "last_residence": "San Mateo, CA",
+      "occupation": "optometrist",
+      "business_affiliations": [
+        { "name": "Clearview Optics", "role": "optometrist" },
+        { "name": "Starlight Theater", "role": "vision consultant" }
+      ]
+    },
+    {
+      "id": "o006",
+      "full_name": "Charles Benton",
+      "aliases": ["Chuck Benton"],
+      "birth_year": 1956,
+      "death_year": 2020,
+      "hometown": "Madison, WI",
+      "last_residence": "Aurora, CO",
+      "occupation": "carpenter",
+      "business_affiliations": [
+        { "name": "Oak & Stone Carpentry", "role": "owner" },
+        { "name": "Summit Outdoor Gear", "role": "fixtures contractor" }
+      ]
+    },
+    {
+      "id": "o007",
+      "full_name": "Lila Noor Ahmed",
+      "aliases": ["Lila N. Ahmed"],
+      "birth_year": 1982,
+      "death_year": 2022,
+      "hometown": "Dearborn, MI",
+      "last_residence": "Chicago, IL",
+      "occupation": "floral designer",
+      "business_affiliations": [
+        { "name": "Meadowlane Florist", "role": "creative lead" },
+        { "name": "Petal & Stem Nursery", "role": "buyer" }
+      ]
+    },
+    {
+      "id": "o008",
+      "full_name": "Frank O'Malley",
+      "aliases": ["Francis O'Malley", "Frank Omalley"],
+      "birth_year": 1933,
+      "death_year": 2011,
+      "hometown": "Scranton, PA",
+      "last_residence": "Buffalo, NY",
+      "occupation": "auto mechanic",
+      "business_affiliations": [
+        { "name": "Silverline Auto Repair", "role": "foreman" },
+        { "name": "Hometown Courier", "role": "fleet mechanic" }
+      ]
+    },
+    {
+      "id": "o009",
+      "full_name": "Sofia Petrova",
+      "aliases": ["Sophie Petrova"],
+      "birth_year": 1961,
+      "death_year": 2024,
+      "hometown": "Cleveland, OH",
+      "last_residence": "Pittsburgh, PA",
+      "occupation": "pharmacist",
+      "business_affiliations": [
+        { "name": "Highland Pharmacy", "role": "pharmacist" },
+        { "name": "Evergreen Insurance", "role": "wellness liaison" }
+      ]
+    },
+    {
+      "id": "o010",
+      "full_name": "James Caldwell",
+      "aliases": ["Jim Caldwell", "J. H. Caldwell"],
+      "birth_year": 1945,
+      "death_year": 2010,
+      "hometown": "Reno, NV",
+      "last_residence": "Fresno, CA",
+      "occupation": "grocer",
+      "business_affiliations": [
+        { "name": "Golden Seed Grocers", "role": "manager" },
+        { "name": "Red Barn Farm Market", "role": "buyer" }
+      ]
+    },
+    {
+      "id": "o011",
+      "full_name": "Naomi Feldman",
+      "aliases": ["N. Feldman"],
+      "birth_year": 1936,
+      "death_year": 2009,
+      "hometown": "St. Paul, MN",
+      "last_residence": "Des Moines, IA",
+      "occupation": "teacher",
+      "business_affiliations": [
+        { "name": "BrightPath Tutoring", "role": "curriculum advisor" },
+        { "name": "Bluebird Booksellers", "role": "reading circle host" }
+      ]
+    },
+    {
+      "id": "o012",
+      "full_name": "Abdul Rahman Khan",
+      "aliases": ["Abdul R. Khan", "A. R. Khan"],
+      "birth_year": 1942,
+      "death_year": 2007,
+      "hometown": "Lubbock, TX",
+      "last_residence": "Oklahoma City, OK",
+      "occupation": "textile engineer",
+      "business_affiliations": [
+        { "name": "Mill & Loom Textiles", "role": "plant manager" },
+        { "name": "Evergreen Insurance", "role": "safety auditor" }
+      ]
+    },
+    {
+      "id": "o013",
+      "full_name": "Teresa Morales",
+      "aliases": ["Tess Morales"],
+      "birth_year": 1972,
+      "death_year": 2021,
+      "hometown": "Santa Fe, NM",
+      "last_residence": "Denver, CO",
+      "occupation": "yoga instructor",
+      "business_affiliations": [
+        { "name": "Aurora Yoga Studio", "role": "instructor" },
+        { "name": "Luna Spa & Wellness", "role": "wellness coach" }
+      ]
+    },
+    {
+      "id": "o014",
+      "full_name": "Daniel H. Okoye",
+      "aliases": ["Daniel Okoye"],
+      "birth_year": 1968,
+      "death_year": 2020,
+      "hometown": "Akron, OH",
+      "last_residence": "Columbus, OH",
+      "occupation": "HVAC specialist",
+      "business_affiliations": [
+        { "name": "Northwind HVAC", "role": "lead technician" },
+        { "name": "Westfield Storage", "role": "maintenance consultant" }
+      ]
+    },
+    {
+      "id": "o015",
+      "full_name": "Mei-Ling Chen",
+      "aliases": ["Mei Chen", "M. L. Chen"],
+      "birth_year": 1958,
+      "death_year": 2016,
+      "hometown": "Flushing, NY",
+      "last_residence": "Edison, NJ",
+      "occupation": "baker",
+      "business_affiliations": [
+        { "name": "Velvet Spoon Bakery", "role": "owner" },
+        { "name": "Golden Seed Grocers", "role": "supplier" }
+      ]
+    },
+    {
+      "id": "o016",
+      "full_name": "Anthony Russo",
+      "aliases": ["Tony Russo"],
+      "birth_year": 1949,
+      "death_year": 2014,
+      "hometown": "Newark, NJ",
+      "last_residence": "Philadelphia, PA",
+      "occupation": "printer",
+      "business_affiliations": [
+        { "name": "Atlas Printworks", "role": "owner" },
+        { "name": "Starlight Theater", "role": "playbill printer" }
+      ]
+    },
+    {
+      "id": "o017",
+      "full_name": "Greta Schneider",
+      "aliases": ["G. Schneider"],
+      "birth_year": 1931,
+      "death_year": 2008,
+      "hometown": "Milwaukee, WI",
+      "last_residence": "Racine, WI",
+      "occupation": "insurance agent",
+      "business_affiliations": [
+        { "name": "Evergreen Insurance", "role": "agent" },
+        { "name": "CityCycle Bike Shop", "role": "sponsorship coordinator" }
+      ]
+    },
+    {
+      "id": "o018",
+      "full_name": "Omar Farouk El-Sayed",
+      "aliases": ["Omar F. El Sayed"],
+      "birth_year": 1955,
+      "death_year": 2019,
+      "hometown": "Dearborn, MI",
+      "last_residence": "Tampa, FL",
+      "occupation": "real estate broker",
+      "business_affiliations": [
+        { "name": "Morning Tide Real Estate", "role": "broker" },
+        { "name": "Lakeside Marina", "role": "board member" }
+      ]
+    },
+    {
+      "id": "o019",
+      "full_name": "Patricia O'Connor",
+      "aliases": ["Pat O'Connor"],
+      "birth_year": 1944,
+      "death_year": 2012,
+      "hometown": "Rochester, NY",
+      "last_residence": "Syracuse, NY",
+      "occupation": "nurse",
+      "business_affiliations": [
+        { "name": "Kindred Care Home Health", "role": "care coordinator" },
+        { "name": "Highland Pharmacy", "role": "liaison" }
+      ]
+    },
+    {
+      "id": "o020",
+      "full_name": "Victor Nguyen",
+      "aliases": ["V. T. Nguyen"],
+      "birth_year": 1979,
+      "death_year": 2024,
+      "hometown": "San Jose, CA",
+      "last_residence": "Portland, OR",
+      "occupation": "software developer",
+      "business_affiliations": [
+        { "name": "MetroTech IT Services", "role": "architect" },
+        { "name": "Beacon Consulting Group", "role": "contractor" }
+      ]
+    },
+    {
+      "id": "o021",
+      "full_name": "Aisha Bello",
+      "aliases": ["A. Bello"],
+      "birth_year": 1986,
+      "death_year": 2023,
+      "hometown": "Atlanta, GA",
+      "last_residence": "Nashville, TN",
+      "occupation": "fitness coach",
+      "business_affiliations": [
+        { "name": "Cobalt Fitness", "role": "coach" },
+        { "name": "Aurora Yoga Studio", "role": "guest instructor" }
+      ]
+    },
+    {
+      "id": "o022",
+      "full_name": "Harold King",
+      "aliases": ["Hal King"],
+      "birth_year": 1939,
+      "death_year": 2013,
+      "hometown": "Wichita, KS",
+      "last_residence": "Omaha, NE",
+      "occupation": "pharmacist",
+      "business_affiliations": [
+        { "name": "Highland Pharmacy", "role": "owner" },
+        { "name": "Evergreen Insurance", "role": "benefits advisor" }
+      ]
+    },
+    {
+      "id": "o023",
+      "full_name": "Yara Haddad",
+      "aliases": ["Y. Haddad"],
+      "birth_year": 1971,
+      "death_year": 2022,
+      "hometown": "San Diego, CA",
+      "last_residence": "Phoenix, AZ",
+      "occupation": "teacher",
+      "business_affiliations": [
+        { "name": "BrightPath Tutoring", "role": "instructor" },
+        { "name": "Bluebird Booksellers", "role": "book club organizer" }
+      ]
+    },
+    {
+      "id": "o024",
+      "full_name": "Lionel Brooks",
+      "aliases": ["L. R. Brooks"],
+      "birth_year": 1948,
+      "death_year": 2017,
+      "hometown": "Mobile, AL",
+      "last_residence": "Jackson, MS",
+      "occupation": "insurance adjuster",
+      "business_affiliations": [
+        { "name": "Evergreen Insurance", "role": "adjuster" },
+        { "name": "Northwind HVAC", "role": "vendor relations" }
+      ]
+    },
+    {
+      "id": "o025",
+      "full_name": "Carmen Alvarez",
+      "aliases": ["Carmen M. Alvarez"],
+      "birth_year": 1965,
+      "death_year": 2018,
+      "hometown": "Tucson, AZ",
+      "last_residence": "Las Cruces, NM",
+      "occupation": "restaurateur",
+      "business_affiliations": [
+        { "name": "Riverside Diner", "role": "co-owner" },
+        { "name": "Velvet Spoon Bakery", "role": "partnerships" }
+      ]
+    },
+    {
+      "id": "o026",
+      "full_name": "Nikhil Sharma",
+      "aliases": ["Nick Sharma"],
+      "birth_year": 1980,
+      "death_year": 2020,
+      "hometown": "Cary, NC",
+      "last_residence": "Richmond, VA",
+      "occupation": "IT consultant",
+      "business_affiliations": [
+        { "name": "Beacon Consulting Group", "role": "consultant" },
+        { "name": "MetroTech IT Services", "role": "project lead" }
+      ]
+    },
+    {
+      "id": "o027",
+      "full_name": "Rosemarie Blake",
+      "aliases": ["Rosie Blake", "R. A. Blake"],
+      "birth_year": 1940,
+      "death_year": 2006,
+      "hometown": "Baton Rouge, LA",
+      "last_residence": "Shreveport, LA",
+      "occupation": "librarian",
+      "business_affiliations": [
+        { "name": "Bluebird Booksellers", "role": "events coordinator" },
+        { "name": "Seaside Art Supply", "role": "workshop host" }
+      ]
+    },
+    {
+      "id": "o028",
+      "full_name": "George K. Pappas",
+      "aliases": ["George Pappas", "G. K. Pappas"],
+      "birth_year": 1952,
+      "death_year": 2015,
+      "hometown": "Chicago, IL",
+      "last_residence": "Peoria, IL",
+      "occupation": "jeweler",
+      "business_affiliations": [
+        { "name": "Gemstone Jewelers", "role": "owner" },
+        { "name": "Clearview Optics", "role": "precision consultant" }
+      ]
+    },
+    {
+      "id": "o029",
+      "full_name": "Svetlana Markovic",
+      "aliases": ["S. Markovic"],
+      "birth_year": 1974,
+      "death_year": 2021,
+      "hometown": "Salt Lake City, UT",
+      "last_residence": "Boise, ID",
+      "occupation": "accountant",
+      "business_affiliations": [
+        { "name": "Evergreen Insurance", "role": "auditor" },
+        { "name": "Harbor & Co. Coffee Roasters", "role": "advisor" }
+      ]
+    },
+    {
+      "id": "o030",
+      "full_name": "Isaiah Thompson",
+      "aliases": ["I. D. Thompson"],
+      "birth_year": 1969,
+      "death_year": 2019,
+      "hometown": "Cincinnati, OH",
+      "last_residence": "Indianapolis, IN",
+      "occupation": "theater director",
+      "business_affiliations": [
+        { "name": "Starlight Theater", "role": "artistic director" },
+        { "name": "Seaside Art Supply", "role": "workshop partner" }
+      ]
+    },
+    {
+      "id": "o031",
+      "full_name": "Hana Kimura",
+      "aliases": ["H. Kimura"],
+      "birth_year": 1990,
+      "death_year": 2024,
+      "hometown": "Honolulu, HI",
+      "last_residence": "San Diego, CA",
+      "occupation": "travel planner",
+      "business_affiliations": [
+        { "name": "Blue Skies Travel", "role": "senior agent" },
+        { "name": "Luna Spa & Wellness", "role": "client relations" }
+      ]
+    },
+    {
+      "id": "o032",
+      "full_name": "Bernard Katz",
+      "aliases": ["Bernie Katz"],
+      "birth_year": 1937,
+      "death_year": 2010,
+      "hometown": "Queens, NY",
+      "last_residence": "Trenton, NJ",
+      "occupation": "bicycle shop owner",
+      "business_affiliations": [
+        { "name": "CityCycle Bike Shop", "role": "owner" },
+        { "name": "Hometown Courier", "role": "delivery partner" }
+      ]
+    },
+    {
+      "id": "o033",
+      "full_name": "Lucia Bianchi",
+      "aliases": ["L. Bianchi"],
+      "birth_year": 1957,
+      "death_year": 2018,
+      "hometown": "Providence, RI",
+      "last_residence": "New Haven, CT",
+      "occupation": "pastry chef",
+      "business_affiliations": [
+        { "name": "Velvet Spoon Bakery", "role": "head baker" },
+        { "name": "Golden Seed Grocers", "role": "supplier" }
+      ]
+    },
+    {
+      "id": "o034",
+      "full_name": "Ahmed Mostafa",
+      "aliases": ["A. Mostafa"],
+      "birth_year": 1962,
+      "death_year": 2020,
+      "hometown": "Plano, TX",
+      "last_residence": "Austin, TX",
+      "occupation": "brewery operations",
+      "business_affiliations": [
+        { "name": "Copper Trail Brewery", "role": "operations manager" },
+        { "name": "Summit Outdoor Gear", "role": "events sponsor" }
+      ]
+    },
+    {
+      "id": "o035",
+      "full_name": "Evelyn Ortiz",
+      "aliases": ["Evy Ortiz"],
+      "birth_year": 1978,
+      "death_year": 2022,
+      "hometown": "Fresno, CA",
+      "last_residence": "Reno, NV",
+      "occupation": "real estate agent",
+      "business_affiliations": [
+        { "name": "Morning Tide Real Estate", "role": "agent" },
+        { "name": "Lakeside Marina", "role": "community liaison" }
+      ]
+    },
+    {
+      "id": "o036",
+      "full_name": "Peter Gallagher",
+      "aliases": ["Pete Gallagher"],
+      "birth_year": 1946,
+      "death_year": 2011,
+      "hometown": "Dayton, OH",
+      "last_residence": "Lexington, KY",
+      "occupation": "landscaper",
+      "business_affiliations": [
+        { "name": "Sunridge Landscaping", "role": "owner" },
+        { "name": "Petal & Stem Nursery", "role": "wholesale partner" }
+      ]
+    },
+    {
+      "id": "o037",
+      "full_name": "Zainab Abdullahi",
+      "aliases": ["Z. Abdullahi"],
+      "birth_year": 1984,
+      "death_year": 2023,
+      "hometown": "Minneapolis, MN",
+      "last_residence": "Madison, WI",
+      "occupation": "childcare director",
+      "business_affiliations": [
+        { "name": "Firefly Childcare", "role": "director" },
+        { "name": "Cobalt Fitness", "role": "family wellness partner" }
+      ]
+    },
+    {
+      "id": "o038",
+      "full_name": "Leonard Pierce",
+      "aliases": ["Len Pierce"],
+      "birth_year": 1953,
+      "death_year": 2016,
+      "hometown": "Albany, NY",
+      "last_residence": "Burlington, VT",
+      "occupation": "winemaker",
+      "business_affiliations": [
+        { "name": "Greenfield Winery", "role": "cellar master" },
+        { "name": "Harbor & Co. Coffee Roasters", "role": "cross-promo partner" }
+      ]
+    },
+    {
+      "id": "o039",
+      "full_name": "Farah Al-Mansouri",
+      "aliases": ["Farah Al Mansouri"],
+      "birth_year": 1973,
+      "death_year": 2021,
+      "hometown": "Tampa, FL",
+      "last_residence": "Orlando, FL",
+      "occupation": "spa manager",
+      "business_affiliations": [
+        { "name": "Luna Spa & Wellness", "role": "manager" },
+        { "name": "Aurora Yoga Studio", "role": "wellness events" }
+      ]
+    },
+    {
+      "id": "o040",
+      "full_name": "Quinn Harper",
+      "aliases": ["Q. Harper"],
+      "birth_year": 1992,
+      "death_year": 2023,
+      "hometown": "Boulder, CO",
+      "last_residence": "Fort Collins, CO",
+      "occupation": "outdoor guide",
+      "business_affiliations": [
+        { "name": "Summit Outdoor Gear", "role": "guide" },
+        { "name": "CityCycle Bike Shop", "role": "brand ambassador" }
+      ]
+    }
+  ]
+}
