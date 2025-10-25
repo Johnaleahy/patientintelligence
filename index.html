@@ -1197,7 +1197,7 @@
 
       results.sort((a, b) => b.matchScore - a.matchScore);
 
-      return results.slice(0, 5).filter(r => r.matchScore > 0.2);
+      return results.slice(0, 5).filter(r => r.matchScore >= 0.95);
     }
 
     /* ---------- UI Rendering ---------- */
