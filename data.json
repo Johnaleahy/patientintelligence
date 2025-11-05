@@ -602,5 +602,13 @@
         { "name": "CityCycle Bike Shop", "role": "brand ambassador" }
       ]
     }
+  ],
+  "samples": [
+    { "name": "Eleanor Whitaker", "year": 1941 },
+    { "name": "Priya Ramanathan", "year": 1975 },
+    { "name": "Bob Dunham", "year": 1938 },
+    { "name": "Sofia Petrova", "year": 1961 },
+    { "name": "Miguel Castillo", "year": 1950 },
+    { "name": "Teresa Morales", "year": 1972 }
   ]
 }
